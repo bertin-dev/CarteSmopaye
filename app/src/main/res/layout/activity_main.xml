@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/BtnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/informations"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/BtnWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/ecrire"/>
+    <View
+     android:layout_width="match_parent"
+     android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/BtnEnregCarte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/enregCarteBD"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/BtnListCarteEnreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/listCarteSave"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/BtnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:background="@drawable/btn_rounded"
+        android:text="@string/resetCarte"/>
+
+</LinearLayout>
+
+</LinearLayout>

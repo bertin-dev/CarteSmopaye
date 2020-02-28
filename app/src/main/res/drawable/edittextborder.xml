@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Draw a 2dp width border around shape -->
+            <stroke
+                android:color="@color/bgColorStandard"
+                android:width="2dp"
+                />
+        </shape>
+    </item>
+    <!-- Overlap the left, top and right border using background color  -->
+    <item
+        android:bottom="5dp"
+        >
+        <shape android:shape="rectangle">
+            <solid android:color="#fff"/>
+        </shape>
+    </item>
+
+</layer-list>
+
+
+
+
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:shape="rectangle">
+    <solid android:color="#00000000" />
+    <stroke android:width="1dip" android:color="@color/bgColorStandard" />
+</shape>
+
+-->

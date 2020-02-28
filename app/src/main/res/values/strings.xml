@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CARTE SMOPAYE</string>
+
+    <string name="enregCarteBD">ENREGISTRER LA CARTE</string>
+    <string name="listCarteSave">LISTE DES CARTES ENREGISTREES</string>
+    <string name="ecrire">ECRIRE SUR LA CARTE</string>
+
+    <string name="enregistrer">Enregistrer</string>
+    <string name="passerCarte">Passer la Carte</string>
+
+    <string name="idCarte">ID CARTE</string>
+    <string name="numCarteLong">N° CARTE CARTE (LONG)</string>
+    <string name="numCarteCourt">N° CARTE CARTE (COURT)</string>
+
+    <string name="operation_fail">Opération Echoué</string>
+    <string name="operation_succss">Opération Success</string>
+
+
+    <string name="card_type">TYPE DE CARTE: </string>
+    <string name="type_b">Type B</string>
+    <string name="type_a">Type </string>
+    <string name="atqa_data">ATQA: </string>
+    <string name="atqb_data">ATQB: </string>
+    <string name="pupi_data">PUPI: </string>
+    <string name="sak_data">SAK: </string>
+    <string name="uid_data">UID: </string>
+
+
+    <string name="infoCarteSmopaye">Informations SMOPAYE</string>
+    <string name="infoCarteVierge">Informations Carte</string>
+    <string name="informations">Informations</string>
+
+    <string name="typeHexaCourt">N° CARTE SMOPAYE (8 Caractères Hexadécimal)</string>
+    <string name="typeHexaLong">N° CARTE SMOPAYE (32 Caractères Hexadécimal)</string>
+
+    <string name="ecrireCarte">Ecrire sur la Carte</string>
+    <string name="champsVide">Un ou les deux champs de saisis sont vides</string>
+    <string name="nbrCaractere">Nombre de Caractères inférieur à </string>
+    <string name="search">Recherche</string>
+
+
+    <string name="ecrireManuellement">Méthode Manuelle</string>
+    <string name="ecrireAutomatiquement">Méthode Automatique</string>
+    <string name="saveBD">Sauvegarder</string>
+    <string name="resetCarte">Initialiser la carte</string>
+    <string name="initialisation">INITIALISATION AUTOMATIQUE</string>
+
+
+</resources>
